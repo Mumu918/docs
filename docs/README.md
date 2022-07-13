@@ -14,3 +14,9 @@ description: 页面的描述
 ::: tip
 真不错
 :::
+
+::: details 点击查看代码
+```js
+console.log('你好，VuePress！')
+```
+:::

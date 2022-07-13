@@ -17,6 +17,16 @@ module.exports = {
       }
     ],
     logo: '/images/logo.png',
-    repo: 'https://gitee.com/mumu918/docs'
+    repo: 'https://gitee.com/mumu918/docs',
+    sidebar: [
+      {
+        text: '首页',
+        link: '/'
+      },
+      {
+        text: '代码页',
+        link: '/code/'
+      },
+    ]
   })
 }
