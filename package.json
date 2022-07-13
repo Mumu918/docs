@@ -1,7 +1,6 @@
 {
   "name": "vuepress-starter",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "天弃之子 <mumu.918@qq.com>",
   "license": "MIT",
   "devDependencies": {
