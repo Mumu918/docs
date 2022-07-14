@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/favicon.ico"><title>木</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="modulepreload" href="/docs/assets/app.ed78125d.js"><link rel="modulepreload" href="/docs/assets/404.html.a17ca46e.js"><link rel="modulepreload" href="/docs/assets/404.html.265028f6.js"><link rel="prefetch" href="/docs/assets/index.html.231c79f3.js"><link rel="prefetch" href="/docs/assets/index.html.51a39be4.js"><link rel="prefetch" href="/docs/assets/index.html.daf64341.js"><link rel="prefetch" href="/docs/assets/index.html.35f65cd2.js"><link rel="prefetch" href="/docs/assets/index.html.72dca3de.js"><link rel="prefetch" href="/docs/assets/index.html.0b59fdc6.js"><link rel="prefetch" href="/docs/assets/404.be4272b9.js"><link rel="prefetch" href="/docs/assets/Layout.860672b2.js"><link rel="prefetch" href="/docs/assets/Counter.730ba09d.js">
+    <link rel="stylesheet" href="/docs/assets/style.9a89f5de.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/docs/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/docs/assets/app.ed78125d.js" defer></script>
+  </body>
+</html>

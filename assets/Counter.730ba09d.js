@@ -1,0 +1,1 @@
+import{_ as t,I as r,o as a,c as o,t as n}from"./app.ed78125d.js";const s={__name:"Counter",setup(_){const e=r(0);return setInterval(()=>{e.value++},500),(c,u)=>(a(),o("div",null,n(e.value),1))}};var p=t(s,[["__file","Counter.vue"]]);export{p as default};
