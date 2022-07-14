@@ -5,6 +5,7 @@ const {
 const path = require('path')
 
 module.exports = {
+  base: '/docs/',
   plugins: [
     registerComponentsPlugin({
       components: {
