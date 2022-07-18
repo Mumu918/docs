@@ -2,7 +2,6 @@
 Pinia [最初是在 2019 年 11 月左右重新设计使用 Composition API](http://zhongguose.com/) 。从那时起，最初的原则仍然相同，但 Pinia 对 Vue 2 和 Vue 3 都有效，并且不需要您使用组合 API。 除了安装和 SSR 之外，两者的 API 都是相同的，并且这些文档针对 Vue 3，并在必要时提供有关 Vue 2 的注释，以便 Vue 2 和 Vue 3 用户可以阅读！
 
 ## 基本示例
-<Counter />
 
 这就是使用 pinia 在 API 方面的样子（请务必查看 Getting Started 以获取完整说明）。 您首先创建一个 Store ：
 ``` typescript{10-13}
